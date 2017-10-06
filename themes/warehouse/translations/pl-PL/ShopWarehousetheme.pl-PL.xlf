@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-1.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="d918f99442796e88b6fe5ad32c217f76">
+        <source>Follow us</source>
+        <target>Śledź nas</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-1.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="ffb7e666a70151215b4c55c6268d7d72">
+        <source>Newsletter</source>
+        <target>Newsletter</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-1.tpl:49</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-4.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="ea5ab1dcdf558a7341f96da6c9013a03">
+        <source>Sign up to newsletter</source>
+        <target>Zapisz się do newslettera</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-4.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-copyrights-2.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="daef64964ee3b9b904f5d467586e217f">
+        <source>Payments</source>
+        <target>Payments</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\_partials\_variants\footer-copyrights-2.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

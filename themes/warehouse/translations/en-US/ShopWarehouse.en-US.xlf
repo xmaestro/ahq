@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\laragon\www\wtest1\themes\warehouse\templates\catalog\_partials\miniatures\_partials\product-miniature-thumb.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="78945de8de090e90045d299651a68a9b">
+        <source>Available</source>
+        <target>Available</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\catalog\_partials\miniatures\_partials\product-miniature-thumb.tpl:87</note>
+      </trans-unit>
+      <trans-unit id="cb3c718c905f00adbb6735f55bfb38ef">
+        <source>Product available with different options</source>
+        <target>Product available with different options</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\catalog\_partials\miniatures\_partials\product-miniature-thumb.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb">
+        <source>Out of stock</source>
+        <target>Out of stock</target>
+        <note>Context:
+File: D:\laragon\www\wtest1\themes\warehouse\templates\catalog\_partials\miniatures\_partials\product-miniature-thumb.tpl:91</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

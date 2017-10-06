@@ -1,0 +1,136 @@
+'class' => 'width-150',
+
+
+  'text_color' =>  array(
+                  'type' => 'color2',
+                  'label' => $this->module->getTranslator()->trans('Link color', array(), 'Modules.IqitThemeEditor.Admin'),
+                  'name' => $prefix . 'text_color',
+                  'size' => 30,
+              ),
+              'link_color' =>  array(
+                  'type' => 'color2',
+                  'label' => $this->module->getTranslator()->trans('Link color', array(), 'Modules.IqitThemeEditor.Admin'),
+                  'name' => $prefix . 'link_color',
+                  'size' => 30,
+              ),
+              'link_h_color' =>  array(
+                  'type' => 'color2',
+                  'label' => $this->module->getTranslator()->trans('Link hover/active color', array(), 'Modules.IqitThemeEditor.Admin'),
+                  'name' => $prefix . 'link_h_color',
+                  'size' => 30,
+              ),
+
+
+            //Top bar
+                        'tb_status' => array('type' => 'json', 'value' => '', 'cached' => true),
+                        'tb_width' => array('type' => 'json', 'value' => '', 'cached' => true),
+                        'tb_boxshadow' => array('type' => 'json', 'value' => ''),
+                        'tb_border' => array('type' => 'json', 'value' => ''),
+                        'tb_bg_color' => array('type' => 'default', 'value' => ''),
+                        'tb_bg_image' => array('type' => 'default', 'value' => ''),
+                        'tb_bg_attachment' => array('type' => 'default', 'value' => ''),
+                        'tb_bg_repeat' => array('type' => 'default', 'value' => ''),
+                        'tb_bg_position' => array('type' => 'default', 'value' => ''),
+                        'tb_bg_size' => array('type' => 'default', 'value' => ''),
+
+            array(
+                                    'type' => 'color2',
+                                    'label' => $this->module->getTranslator()->trans('Link background', array(), 'Modules.IqitThemeEditor.Admin'),
+                                    'name' => 'rm_link_bg',
+                                    'size' => 30,
+                                    'condition' => array(
+                                        'rm_header' => '==3'
+                                    ),
+                                ),
+
+
+        array(
+                                'type' => 'switch',
+                                'label' => $this->module->getTranslator()->trans('Top pagination', array(), 'Modules.IqitThemeEditor.Admin'),
+                                'desc' =>  $this->module->getTranslator()->trans('Show pagination also above product lists', array(), 'Modules.IqitThemeEditor.Admin'),
+                                'name' => 'pl_top_pagination',
+                                'is_bool' => true,
+                                'values' => array(
+                                    array(
+                                        'id' => 'active_on',
+                                        'value' => 1,
+                                        'label' => $this->l('Enabled')
+                                    ),
+                                    array(
+                                        'id' => 'active_off',
+                                        'value' => 0,
+                                        'label' => $this->l('Disabled')
+                                    )
+                                ),
+                            ),
+
+
+                             array(
+                                                    'type' => 'title_separator',
+                                                    'label' => $this->module->getTranslator()->trans('Carousels Options', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                    'size' => 30,
+                                                    'border_top' => true
+                                                ),
+
+
+                                                array(
+                                                                        'type' => 'image-select',
+                                                                        'label' => $this->module->getTranslator()->trans('Grid layout', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                                        'name' => 'pl_grid_layout',
+                                                                        'direction' => 'vertical',
+                                                                        'options' => array(
+                                                                            'query' => array(
+                                                                                array(
+                                                                                    'id_option' => 1,
+                                                                                    'name' => $this->module->getTranslator()->trans('Default', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                                                    'img' => 'grid-layouts/style1.png'
+                                                                                ),
+                                                                                array(
+                                                                                    'id_option' => 2,
+                                                                                    'name' => $this->module->getTranslator()->trans('Aligned', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                                                    'img' => 'grid-layouts/style2.png'
+                                                                                ),
+                                                                                array(
+                                                                                    'id_option' => 3,
+                                                                                    'name' => $this->module->getTranslator()->trans('Just image (info on hover)', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                                                    'img' => 'grid-layouts/style3.png'
+                                                                                ),
+                                                                            ),
+                                                                            'id' => 'id_option',
+                                                                            'name' => 'name',
+                                                                        ),
+                                                                    ),
+
+
+                                 array(
+                                                        'type' => 'select',
+                                                        'label' => $this->module->getTranslator()->trans('Products per line - large desktop', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                        'desc' => $this->module->getTranslator()->trans('Note: Each column enabled decrease this value by 1. After modifications of this values maybe needed change of home_default image size', array(), 'Modules.IqitThemeEditor.Admin'),
+                                                        'name' => 'pl_grid_ld',
+                                                        'options' => array(
+                                                            'query' => array(
+                                                                array(
+                                                                    'id_option' => 2,
+                                                                    'name' => 6
+                                                                ),
+                                                                array(
+                                                                    'id_option' => 15,
+                                                                    'name' => 5
+                                                                ),
+                                                                array(
+                                                                    'id_option' => 3,
+                                                                    'name' => 4
+                                                                ),
+                                                                array(
+                                                                    'id_option' => 4,
+                                                                    'name' => 3
+                                                                ),
+                                                                array(
+                                                                    'id_option' => 6,
+                                                                    'name' => 2
+                                                                )
+                                                            ),
+                                                            'id' => 'id_option',
+                                                            'name' => 'name',
+                                                        ),
+                                                    ),
